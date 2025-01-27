@@ -1,0 +1,35 @@
+[0m20:43:48.961362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD7BC9F020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD7CF84170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD7AE255B0>]}
+
+
+============================== 20:43:49.057870 | f36d6b7f-be9a-4bda-93a4-40f729d05fd7 ==============================
+[0m20:43:49.057870 [info ] [MainThread]: Running with dbt=1.9.1
+[0m20:43:49.058876 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\gusta\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m20:44:59.022738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E75BE2B70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E760E30B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E760E0770>]}
+
+
+============================== 20:44:59.026244 | 38a556e1-7247-453f-82a8-ac08a4cd56a0 ==============================
+[0m20:44:59.026244 [info ] [MainThread]: Running with dbt=1.9.1
+[0m20:44:59.027251 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\gusta\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:18:28.178640 [debug] [MainThread]: Starter project path: C:\Users\gusta\Documents\Dev\jornadadedados\bootcamp-dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m21:18:28.200171 [info ] [MainThread]: 
+Your new dbt project "northwind" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:18:28.200171 [info ] [MainThread]: Setting up your profile.
+[0m21:27:48.755297 [info ] [MainThread]: Profile northwind written to C:\Users\gusta\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:27:48.755297 [debug] [MainThread]: Command `dbt init` succeeded at 21:27:48.755297 after 2569.85 seconds
+[0m21:27:48.756801 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E760BE4E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E762AE210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E75E48EF0>]}
+[0m21:27:48.756801 [debug] [MainThread]: Flushing usage events
+[0m21:27:49.300982 [debug] [MainThread]: An error was encountered while trying to flush usage events
